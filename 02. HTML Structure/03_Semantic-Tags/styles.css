@@ -1,0 +1,23 @@
+body{
+    background-color: #f9f7cf;
+}
+
+#heading{
+    background-color: #f2dcbb;
+    width: 480px;
+    padding: 15px 5px 15px;
+    margin: 0px auto;
+}
+
+main{
+    padding: 15px 5px 15px;
+    width: 480px;
+    margin: 0px auto;
+}
+
+#footing{
+    background-color: #f2dcbb;
+    width: 480px;
+    padding: 15px 5px 15px;
+    margin: 0px auto;
+}
