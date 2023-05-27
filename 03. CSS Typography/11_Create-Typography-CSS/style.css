@@ -1,0 +1,48 @@
+th{
+    background-color: gray;
+    text-align: left;
+}
+
+th, td{
+    width: 900px;
+    height: 32px;
+    padding-left: 5px;
+    border: 1px solid rgb(221,221,221);
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+table tbody tr:nth-child(odd) td{
+    background: rgb(221,221,221);
+}
+
+.vertical{
+    position: absolute;
+    height: 140px;
+}
+
+.p{
+    padding: 10px;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, serif;
+}
+
+.right{
+    text-align: right;
+}
+
+blockquote{
+    font-style: italic;
+}
+
