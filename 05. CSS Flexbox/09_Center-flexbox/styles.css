@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    width: 20em;
+    padding: 1em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.4);
+}
+
+.card h4{
+    font-weight: 700;
+}

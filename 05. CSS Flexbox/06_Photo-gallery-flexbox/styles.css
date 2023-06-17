@@ -1,0 +1,26 @@
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #EEE;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li{
+    display: flex;
+    border: 10px solid black;
+    align-items: center;
+}
+
+img{
+    padding: 2em;
+}

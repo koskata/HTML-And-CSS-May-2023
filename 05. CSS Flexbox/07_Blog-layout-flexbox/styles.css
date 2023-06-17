@@ -1,0 +1,90 @@
+header h1{
+    text-transform: uppercase;
+    flex: 1 0 100%;
+    font-weight: 800;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+header{
+    border-bottom: 2px solid black;
+    flex: 1 0 100%;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 5em;
+}
+
+main{
+    flex: 0 0 75%;
+}
+
+.right{
+    float: right;
+    border: 3px solid black;
+    padding: 0.4em;
+}
+
+.left{
+    float: left;
+    border: 3px solid black;
+    padding: 0.4em;
+}
+
+article li{
+    margin: 0 0 1em 1em;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1 0 25%;
+}
+
+aside a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+    border-left: 5px solid black;
+    padding-left: 4em;
+    font-style: italic;
+
+}
+
+.block{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.block p{
+    flex: 1 0 40%;
+    
+}
+
+blockquote p{
+    text-align: end;
+}
+
+
+
+
