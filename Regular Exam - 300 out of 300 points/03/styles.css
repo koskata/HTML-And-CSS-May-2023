@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font: 14px/1.5 Inter;
+}
+
+.site{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site > header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 9em;
+    align-items: center;
+}
+
+.site > header ul{
+    display: flex;
+    gap: 2.5em;
+}
+
+.site > header .sign ul{
+    display: flex;
+    gap: 1em;
+}
+
+.site > header ul li{
+    display: block;
+}
+
+.site > header ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.site > header .sign ul a{
+    background-color: #fff;
+    padding: 0.5em 1.2em;
+    
+}
+
+.site > header .sign ul .colored{
+    background-color: #ADE2DF;
+    padding: 0.5em 1.5em;
+    border-radius: 0.5em;
+}
+
+
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* First */
+
+.first{
+    background-color: #ADE2DF;
+    height: 23em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.first h1{
+    font-size: 3.5em;
+}
+
+.first p{
+    padding-bottom: 0.7em;
+}
+
+.first .btns{
+    display: flex;
+    gap: 1em;
+}
+
+.first .btns a{
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.2em 1.7em;
+    border-radius: 0.6em;
+    display: flex;
+    align-items:center;
+    gap: 0.5em;
+}
+
+.first .btns svg{
+    height: 1.2em;
+    fill: #fff;
+}
+
+
+/* Second Section */
+
+.second{
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5em;
+}
+
+.second article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 33%;
+    text-align: center;
+    height: 12.5em;
+}
+
+.second article p{
+    max-width: 35ch;
+    text-align: center;
+}
+
+.second article:first-child{
+    border-left: 1px solid #DBDBDB;
+    border-right: 2px solid #DBDBDB;
+}
+
+.second article:nth-child(2){
+    border-right: 2px solid #DBDBDB;
+}
+
+.second article:last-child{
+    border-right: 1px solid #DBDBDB;
+}
+
+.second article h1{
+    font-weight: 600;
+    font-size: 2.6em;
+    padding-bottom: 0.5em;
+}
+
+
+/* Third */
+
+.third{
+    height: 28em;
+    background-color: #ADE2DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.third img{
+    height: 99%;
+    border: 2px dashed #98B8B6;
+    padding: 0 3em;
+}
+
+
+.third .content{
+    width: 31em;
+}
+
+.third .content h1{
+    font-size: 2.1em;
+    font-weight: 600;
+    padding-bottom: 0.7em;
+}
+
+.third .content h4{
+    padding-bottom: 0.7em;
+}
+
+.third .content p{
+    padding-bottom: 1.2em;
+}
+
+.third .content a{
+    display: flex;
+    align-items:center;
+    gap: 0.5em;
+    text-decoration: underline;
+    color: black;
+    line-height: 2.5;
+    text-underline-offset: 5px;
+}
+
+/* Fourth */
+
+.fourth{
+    background-color: #F3F5FA;
+    height: 51em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
+
+.fourth > a{
+    text-decoration: none;
+    color: #000;
+    background-color: #ADE2DF;
+    padding: 0.5em 1.5em;
+    border-radius: 0.6em;
+    margin-top: 2.5em;
+}
+
+.fourth > h1{
+    font-size: 2.2em;
+    padding-bottom: 1em;
+}
+
+
+.fourth .sections {
+    display: flex;
+    border-radius: 1em;
+    border: 1px solid #98B8B6;
+    background-color: #fff;
+}
+
+.fourth .sections .articles{
+    display: flex;
+    padding: 1.5em;
+}
+
+.fourth .sections article{
+    flex: 1 1 20%;
+    padding: 1.5em;
+    background-color: #fff;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth .sections article:first-child{
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-right: 1px solid #DBDBDB;
+    
+}
+
+.fourth .sections article:nth-child(2){
+    border-right: 1px solid #DBDBDB;
+}
+
+.fourth .sections .expand{
+    flex: 1 1 40%;
+    height: 91.2%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #ADE2DF;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fourth .sections article h3{
+    text-align: center;
+    
+}
+
+.fourth .sections a{
+    text-decoration: none;
+}
+
+.fourth .sections ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+.fourth .sections article ul {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.fourth .sections article h1{
+    font-size: 2em;
+    font-weight: 600;
+    padding-top: 0.45em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.fourth .sections article h1 sub{
+    font-size: 0.6em;
+    font-weight: normal;
+    padding-left: 0.4em;
+}
+
+.fourth .sections article a{
+    background-color: #ADE2DF;
+    color: #000;
+    padding: 1em 4em;
+    border-radius: 0.6em;
+    margin-top: auto;
+}
+
+
+.fourth .sections .expand header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.5em;
+}
+
+.fourth .sections .expand p{
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+.fourth .sections .expand a{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    margin-top: auto;
+    text-align: center;
+    padding: 1em;
+    border-radius: 0.6em;
+}
+
+
+
+/* Fifth Section */
+
+.fifth{
+    background-color: #ADE2DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30em;
+    text-align: center;
+}
+
+.fifth h1{
+    font-size: 3.5em;
+    max-width: 16ch;
+}
+
+.fifth p{
+    font-size: 1.2em;
+    font-weight: 500;
+    max-width: 50ch;
+    padding-bottom: 3em;
+}
+
+.fifth .btns{
+    display: flex;
+    gap: 1em;
+}
+
+.fifth a{
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 4em;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.fifth a svg{
+    height: 1.2em;
+    fill: #fff;
+}
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 2.5em;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    gap: 1em;
+    
+}
+
+footer ul li{
+    display: block;
+}
